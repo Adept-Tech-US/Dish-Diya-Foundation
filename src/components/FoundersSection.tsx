@@ -1,20 +1,20 @@
 import { useEffect, useRef } from "react";
 import { Card } from "./ui/card";
-import founder1 from "@/assets/images/founder-1.jpg";
-import founder2 from "@/assets/images/founder-2.jpg";
+import founder1 from "@/assets/images/founder-1.jpeg";
+import founder2 from "@/assets/images/founder-2.jpeg";
 
 const founders = [
   {
     name: "Mr. Dishan Dias",
     title: "Founder",
     image: founder1,
-    bio: "A visionary leader with over 3 years of experience in community development, Mr. Dias established Dishdiya Foundation with a mission to create lasting positive change in Sri Lankan communities.",
+    bio: "Dishan Dias is a driven student-athlete whose journey reflects both academic commitment and entrepreneurial vision. A proud graduate of Archbishop Mitty High School, Dishan continued his education at Long Beach before pursuing his studies at San Jose State University.Beyond academics, Dishan has demonstrated leadership and initiative through his involvement in meaningful projects in Sri Lanka, where he has been engaged in community development and giving back to his roots. One of his standout initiatives includes the creation of a weight training and fitness center, designed to empower young athletes and provide opportunities for strength training and wellness in underserved communities.Dishan’s passion for sports and fitness has been a constant throughout his journey. His experience in athletics and his commitment to weight training have shaped not only his personal discipline but also his ability to inspire and guide others toward healthier lifestyles. With a vision that blends education, athletics, and social impact, Dishan continues to expand his horizons and make a lasting difference both locally and internationally.",
   },
   {
     name: "Miss. Diyanka Dias",
     title: "Co-Founder",
     image: founder2,
-    bio: "With a background in social work and education, Miss. Dias brings invaluable expertise in program development and community engagement, ensuring our initiatives create meaningful impact.",
+    bio: "Diyanka Dias is a 15-year-old sophomore at Archbishop Mitty High School, where she excels both in academics and athletics. She is a member of the varsity water polo team and also contributes to the school’s swimming program. Outside of school, Diyanka plays club water polo with Pacific Valley Premier on the under-18 team, where she played to compete in the 2025 Junior Olympics. Driven and competitive, she is passionate about growing as an athlete while balancing her academic and extracurricular commitments.",
   },
 ];
 
