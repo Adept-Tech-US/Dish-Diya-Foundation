@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { ChevronDown } from "lucide-react";
-import heroImage from "/src/assets/images/hero-bg.jpg";
+import heroImage from "/assets/images/hero-bg.jpg";
 
 const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
