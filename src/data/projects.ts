@@ -1,9 +1,8 @@
 import { slugify } from "@/utils/slugify";
-import gymImage from "/src/assets/images/gym.webp";
-import educationImage from "@/assets/project-education.jpg";
+import gymImage from "/assets/images/gym.webp";
 
-const gymBefore2 = "/src/assets/images/old_facility_1.jpeg";
-const gymBefore1 = "/src/assets/images/old_facility_2.jpeg";
+const gymBefore2 = "/assets/images/old_facility_1.jpeg";
+const gymBefore1 = "/assets/images/old_facility_2.jpeg";
 
 export const projects = [
   {
@@ -25,11 +24,11 @@ export const projects = [
     documents: [
       {
         name: "Project Proposal",
-        path: "/src/assets/pdf/Project Proposal.pdf",
+        path: "/assets/pdf/Project Proposal.pdf",
       },
       {
         name: "Scanned Document",
-        path: "/src/assets/pdf/IMG_20190322_0001.pdf",
+        path: "/assets/pdf/IMG_20190322_0001.pdf",
       },
     ],
     timeline: [
@@ -67,10 +66,10 @@ export const projects = [
         description:
           "Detailed planning included designing blueprints and obtaining legal approvals to ensure a safe and functional weight-lifting center for student athletes. This stage involved collaboration with local authorities and reviewing project proposals.",
         images: [
-          "/src/assets/images/building_plan_1.png",
-          "/src/assets/images/blueprint_1.png",
-          "/src/assets/images/blueprint_2.png",
-          "/src/assets/images/blueprint_3.png",
+          "/assets/images/building_plan_1.png",
+          "/assets/images/blueprint_1.png",
+          "/assets/images/blueprint_2.png",
+          "/assets/images/blueprint_3.png",
         ],
       },
       {
@@ -78,8 +77,8 @@ export const projects = [
         description:
           "Construction began with laying a solid foundation to support the gymnasium’s heavy equipment and training areas. Early site preparation and initial brickwork were critical.",
         images: [
-          "/src/assets/images/foundation_1.jpg",
-          "/src/assets/images/foundation_2.jpeg",
+          "/assets/images/foundation_1.jpg",
+          "/assets/images/foundation_2.jpeg",
         ],
       },
       {
@@ -87,9 +86,9 @@ export const projects = [
         description:
           "Building the concrete walls and main structure to create a durable and spacious training environment. This phase focused on structural integrity.",
         images: [
-          "/src/assets/images/walls_1.jpg",
-          "/src/assets/images/walls_2.jpeg",
-          "/src/assets/images/walls_3.jpeg",
+          "/assets/images/walls_1.jpg",
+          "/assets/images/walls_2.jpeg",
+          "/assets/images/walls_3.jpeg",
         ],
       },
       {
@@ -97,9 +96,9 @@ export const projects = [
         description:
           "The Sri Lankan Army provided critical support in constructing a robust roof, ensuring the facility could withstand local weather conditions.",
         images: [
-          "/src/assets/images/roof_1.jpeg",
-          "/src/assets/images/roof_2.jpeg",
-          "/src/assets/images/roof_3.jpeg",
+          "/assets/images/roof_1.jpeg",
+          "/assets/images/roof_2.jpeg",
+          "/assets/images/roof_3.jpeg",
         ],
       },
       {
@@ -107,14 +106,14 @@ export const projects = [
         description:
           "The grand opening featured a ribbon-cutting ceremony, attended by local leaders, students, and community members, marking the start of community fitness programs.",
         images: [
-          "/src/assets/images/opening_2 (7).jpeg",
-          "/src/assets/images/opening_2 (2).jpeg",
-          "/src/assets/images/opening_2 (1).jpeg",
-          "/src/assets/images/opening_2 (3).jpeg",
-          "/src/assets/images/opening_2 (4).jpeg",
-          "/src/assets/images/opening_2 (5).jpeg",
-          "/src/assets/images/opening_2 (6).jpeg",
-          "/src/assets/images/opening_2 (8).jpeg",
+          "/assets/images/opening_2 (7).jpeg",
+          "/assets/images/opening_2 (2).jpeg",
+          "/assets/images/opening_2 (1).jpeg",
+          "/assets/images/opening_2 (3).jpeg",
+          "/assets/images/opening_2 (4).jpeg",
+          "/assets/images/opening_2 (5).jpeg",
+          "/assets/images/opening_2 (6).jpeg",
+          "/assets/images/opening_2 (8).jpeg",
         ],
       },
       {
@@ -122,10 +121,10 @@ export const projects = [
         description:
           "Students from Sevanapitiya Maha Vidyalaya began using the facility, with weight-lifting programs boosting their physical and mental resilience. Images show children engaging in weight lifting and other activities.",
         images: [
-          "/src/assets/images/post_opening_ (4).jpeg",
-          "/src/assets/images/post_opening_ (2).jpeg",
-          "/src/assets/images/post_opening_ (3).jpeg",
-          "/src/assets/images/post_opening_ (1).jpeg",
+          "/assets/images/post_opening_ (4).jpeg",
+          "/assets/images/post_opening_ (2).jpeg",
+          "/assets/images/post_opening_ (3).jpeg",
+          "/assets/images/post_opening_ (1).jpeg",
         ],
       },
     ],
