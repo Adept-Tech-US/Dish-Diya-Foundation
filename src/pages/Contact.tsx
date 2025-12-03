@@ -225,8 +225,8 @@ const Contact = () => {
             <h2 className="text-3xl font-playfair font-bold text-center mb-12 text-primary">
               Quick Contact Options
             </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <Card className="p-6 text-center hover:shadow-luxury transition-all cursor-pointer group">
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              {/* <Card className="p-6 text-center hover:shadow-luxury transition-all cursor-pointer group">
                 <MessageSquare className="w-12 h-12 text-secondary mx-auto mb-4 group-hover:scale-110 transition-transform" />
                 <h3 className="font-semibold text-lg mb-2">Live Chat</h3>
                 <p className="text-sm text-muted-foreground mb-4">
@@ -235,7 +235,7 @@ const Contact = () => {
                 <Button variant="luxury-outline" size="sm" className="w-full">
                   Start Chat
                 </Button>
-              </Card>
+              </Card> */}
 
               <Card className="p-6 text-center hover:shadow-luxury transition-all cursor-pointer group">
                 <Phone className="w-12 h-12 text-secondary mx-auto mb-4 group-hover:scale-110 transition-transform" />
