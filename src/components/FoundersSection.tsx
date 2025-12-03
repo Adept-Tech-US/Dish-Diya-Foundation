@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Card } from "./ui/card";
-import founder1 from "@/assets/images/founder-1.jpeg";
+import founder1 from "@/assets/images/founder-1_new.jpeg";
 import founder2 from "@/assets/images/founder-2.jpeg";
 
 const founders = [
